@@ -7,7 +7,12 @@
 
 ##
 <h4>02-HTML E CSS</h4>
-<p>- Criando um site simples com html e css: </p>
+<p>- Criando um site simples com html e css: 
+<br>
+<a href="https://github.com/jailcomfranssa/HTML-Modelos/tree/main/02-HTML%20e%20CSS">Projeto HTML e CSS 02</a>
+
+</p>
+<p></p>
 <img alt="site_02" title="site_2" src="https://raw.githubusercontent.com/jailcomfranssa/HTML-Modelos/main/layouts/site_02.png" width:5px; />
 
 ##
