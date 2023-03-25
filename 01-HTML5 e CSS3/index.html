@@ -1,152 +1,54 @@
 <!DOCTYPE html>
-<html lang="bt-br">
-<link>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swao" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
-</head>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job-Finder</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    </head>
 <body>
     <div class="container">
         <header>
             <nav>
                 <div class="nav-container">
-                    
-                        <img id="logo" src="img/logo.jpg" alt="logo vaga de emprego">
+
+                    <img id="logo" src="img/logo.png" alt="logo">
+
                     <ul>
-                        <li><a href="">Encontrar vagas</a></li>
-                        <li><a href="">Enviar vagas</a></li>
+                        <li><a href="">Encontrar Vaga</a></li>
+                        <li><a href="">Enviar vaga</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
+
                 </div>
             </nav>
+
             <div id="main-banner">
                 <div id="search-form">
-                    <h1>A maneira mais facil de encontrar seu novo emprego</h1>
-                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
-                    <form action="">
+                    <h1>A maneira mais fácil de encontrar emprego</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vitae possimus nostrum cum illo dolor</p>
+                    
+                    <form>
                         <input type="text" name="job" placeholder="Digite o cargo">
-
-                        <select name="região" id="região">
-                            <option value="">Todos os estados</option>
-                        </select>
-
-                        <select name="categoria" id="categoria">
-                            <option value="">Categoria</option>
-                        </select>
-
-                        <input type="submit" value="Pesquisar">
+						<select name="region">
+							<option value="">Todos os estados</option>
+						</select>
+						<select name="category">
+							<option value="">Categoria</option>
+						</select>
+						<input type="submit" value="Pesquisar">
                     </form>
+
                 </div>
             </div>
+
         </header>
-        <main id="lastjobs-conteiner" class="wrapper">
-            <h1>Últimas vagas enviadas</h1>
-
-            <ul>
-                <li>
-                    <a href="http://">
-
-                        <div class="company-box">
-                            <img src="img/Google-new_19.png" alt="google.com">
-
-                            <div class="company-info">
-                                <h3>Developer</h3>
-                                <p>Google</p>
-                            </div>
-
-                        </div>
-
-                        <div class="locality">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>Mountain View, California</p>
-                        </div>
-                        <div class="job-type">
-                            <span class="ctl">CTL</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="http://">
-
-                        <div class="company-box">
-                            <img src="img/ibm-2x.png" alt="ibm">
-
-                            <div class="company-info">
-                                <h3>BDA</h3>
-                                <p>IBM</p>
-                            </div>
-
-                        </div>
-
-                        <div class="locality">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>Armonk, New York</p>
-                        </div>
-                        <div class="job-type">
-                            <span class="pj">PJ</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="http://">
-
-                        <div class="company-box">
-                            <img src="img/logo-linkedin-256.png" alt="linkendin">
-
-                            <div class="company-info">
-                                <h3>Front End Developer</h3>
-                                <p>Linkendin</p>
-                            </div>
-
-                        </div>
-
-                        <div class="locality">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>Sunnyvale, California</p>
-                        </div>
-                        <div class="job-type">
-                            <samp class="homeoffice">Home Office</samp>
-                        </div>
-                    </a>
-                </li>
-                
-
-                <li>
-                    <a href="http://">
-
-                        <div class="company-box">
-                            <img src="img/facebook.png" alt="facebook">
-
-                            <div class="company-info">
-                                <h3>Full Stack Developer</h3>
-                                <p>FaceBook</p>
-                            </div>
-
-                        </div>
-
-                        <div class="locality">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>Menlo Park, California</p>
-                        </div>
-                        <div class="job-type">
-                            <samp class="pj">PJ</samp>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
-            <div class="btnjobs-container">
-                <a href="http://" class="btn-jobs"> ver mais vagas</a>
-
-            </div>
-
-        </main>
 
     </div>
 </body>
